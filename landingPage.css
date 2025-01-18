@@ -1,0 +1,214 @@
+html{
+  background-image: url(images/Gemini_Generated_Image_cmy16jcmy16jcmy1.jpg);
+}
+
+body {
+    font-family: serif;
+    /* background-image: url('/photo_2024-12-23_14-41-42.jpg');
+    background-position: center right;
+    background-size: cover; */
+}
+
+header {
+  /* background-image: url(/Gemini_Generated_Image_7wmhpq7wmhpq7wmh.jpg); */
+  /*transition: background-color 2s ease;*/
+  color: #f7f2f5;
+  font-size: large;
+  font-weight: bold;
+  margin: 20px 40px;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 65% 10%;
+  box-shadow: 20 40px 0px rgba(10, 21, 103, 0.1);
+}
+
+header:hover, .dropdown-btn:hover {
+  /* background-color: rgba(255, 0, 0, 0); */
+  background-color: #111;
+  transition: background-color 0.3s ease;
+}
+
+h1 {
+  font-family: 'Lobster', cursive; /* Or another stylish font */
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #E63946; /* Vibrant color */
+  text-shadow: 1px 1px 2px yellowgreen; /* Subtle shadow */
+  letter-spacing: 2px; 
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.brand-picture {
+  border-radius: 50%;
+  background-image: url(images/photo_2024-12-23_14-42-18.jpg);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: aqua;
+}
+
+.options {
+  place-self: center;
+  background: none;
+}
+
+.dropdown-btn {
+  background: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: rebeccapurple;
+  margin: 6px 0;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.dropdown-btn:hover {
+  display: block;
+  background: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1 {
+    font-size: 2em;
+    place-items: center;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+}
+
+.star {
+  color: yellowgreen;
+}
+
+.container {
+    background-image: url(images/newww.jpg);
+    background-position: top center;
+    max-width: auto;
+    margin: 0 auto;
+    border-color: aquamarine;
+    border-style: groove;
+    border-width: 8px;
+    border-radius: 10%;
+    color: rgba(234, 238, 241, 0.82);
+    font-family: Roboto Condensed Bold;
+    padding: 6px;
+}
+
+.contactButton {
+  font-weight: bold;
+  padding: 3px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.points {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.list {
+  border-color: bisque;
+  border-radius: 5%;
+  border-style: solid;
+  border-style: outset;
+  background-color: none;
+  margin: 15px 5px;
+  padding: 8px;
+}
+
+.list:hover {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: burlywood;
+}
+
+.h3 {
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.js-new {
+  color:white;
+  margin-top: 15px;
+}
+
+footer {
+  color: bisque;
+  margin-top: 300px;
+  max-width: 500px;
+}
+
+.cont {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.list2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  margin-top: none;
+}
+
+.back-home{
+  background-color: whitesmoke;
+  padding: 2px 5px;
+  border-radius: 20%;
+  border-style: outset;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back-home:hover, .contactButton:hover {
+  cursor: pointer;
+  font-size: larger;
+}
+
+.js-index {
+  color: white;
+}
