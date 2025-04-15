@@ -43,9 +43,21 @@ h1 {
 .brand-picture {
   border-radius: 50%;
   background-image: url(images/photo_2024-12-23_14-42-18.jpg);
+  margin-top: 13px;
   margin-left: 20px;
   margin-right: 20px;
   border-color: aqua;
+}
+
+.brand-pic {
+  margin: inherit;
+  border-radius: inherit;
+}
+
+.Names-Co {
+  margin-right: 20px;
+  margin-left: 80px;
+  padding: 10px 5px;
 }
 
 .options {
@@ -97,11 +109,6 @@ a {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
-}
-
-h1 {
-    font-size: 2em;
-    place-items: center;
 }
 
 main {
