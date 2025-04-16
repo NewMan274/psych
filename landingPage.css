@@ -42,16 +42,12 @@ h1 {
 
 .brand-picture {
   border-radius: 50%;
-  background-image: url(images/photo_2024-12-23_14-42-18.jpg);
+  background-image: url(images/profile.jpg);
   margin-top: 13px;
   margin-left: 20px;
   margin-right: 20px;
   border-color: aqua;
-}
-
-.brand-pic {
-  margin: inherit;
-  border-radius: inherit;
+  width: 320px;
 }
 
 .Names-Co {
@@ -112,8 +108,8 @@ a {
 }
 
 main {
-    padding: 10px;
-    text-align: center;
+  padding: 10px;
+  text-align: center;
 }
 
 .star {

@@ -7,18 +7,10 @@ function Header() {
   
   return (
     <header id="home">
-      <div className="brand-picture">
-        <img src={BrandPic} alt="BrandPicture" className='brand-pic'/>
-      </div>
+      <div className="brand-picture"></div>
 
       <div className="Names-Co">
           <h1>Brand Name</h1>
-          <p>
-            Welcome to the (brand name) where you Discover the 
-            Guidance Beyond and Connect with Spirit, and Find Your Path.
-            Here, we will help unlock your inner star power: Discover 
-            your comic!
-          </p>
       </div>
 
       <div className={classToggle ? 'show' : 'options'}>

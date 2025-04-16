@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+.main {
+  padding: 10px;
+  text-align: center;
+}
+
+.star {
+  color: yellowgreen;
+}
+
+.container {
+    background-image: url(../../assets/images/newww.jpg);
+    background-position: top center;
+    max-width: auto;
+    margin: 0 auto;
+    border-color: aquamarine;
+    border-style: groove;
+    border-width: 8px;
+    border-radius: 10%;
+    color: rgba(234, 238, 241, 0.82);
+    font-family: Roboto Condensed Bold;
+    padding: 6px;
+}
+
+.contactButton {
+  font-weight: bold;
+  padding: 3px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.points {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.list {
+  border-color: bisque;
+  border-radius: 5%;
+  border-style: solid;
+  border-style: outset;
+  background-color: none;
+  margin: 15px 5px;
+  padding: 8px;
+}
+
+.list:hover {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: burlywood;
+}
+
+.h3 {
+  font-size: 1.05rem;
+  font-weight: bold;
+}
