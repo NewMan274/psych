@@ -7,7 +7,7 @@ function Header() {
   
   return (
     <header className='flex flex-row parent text-amber-100 text-2xl font-bold mx-0 mt-0 mb-3 h-12 bg-amber-200 hover:bg-amber-100'>
-      <div className="basis-1/15 ml-12 mr-4 my-auto rounded-4xl h-10 bg-[url(../../assets/images/profile.jpg)]"></div>
+      <img className="object-cover basis-1/15 ml-12 mr-4 my-auto rounded-4xl h-10 bg-[url(../../assets/images/profile.jpg)]"></img>
 
       <div className=" basis-9/15 pl-65 my-auto text-center text-3xl tracking-wide font-extrabold text-red-500 text-shadow-blue-500 text-shadow-2xs">
           <h1>Brand Name</h1>
